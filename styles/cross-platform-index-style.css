@@ -1,0 +1,143 @@
+@media(max-device-width: 640px) {
+
+.intro, .main{
+    width: 102.5%;
+}
+
+.header_logo {
+    font-size: 70px;
+    margin: 25px;
+}
+
+.intro_title{
+    font-size: 130px;
+}
+
+.intro_suptitle{
+    font-size: 80px;
+}
+
+
+.btn {
+    font-size: 60px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: #333333;
+}
+
+
+.blog {
+    height: 8600px;
+    width: 360px
+    margin: 30px;
+}
+
+.blog__item {
+    height: 60px;
+    margin-left: 60px;
+}
+
+.blog__title {
+    font-size: 60px;
+}
+
+.blog__text {
+    font-size: 60px;
+}
+
+#subjects {
+    margin-top: 1300px;
+    width: 3300px;
+    margin-left: -150px;
+}
+
+#contacts {
+    margin-top: 3300px;
+    width: 3300px;
+    margin: 0 auto;
+    margin-top: 3300px;
+    margin-right: 200px;
+}
+
+
+
+
+
+
+
+
+.dws-menu1 *{
+    margin: none;
+    padding: none;
+}
+
+
+.dws-menu1 ul,
+.dws-menu1 ol{
+    list-style: none;
+}
+.dws-menu1 > ul{
+    display: none;
+
+}
+.dws-menu1 > ul li{
+    position: none;
+
+}
+
+.dws-menu1 li > ul li{
+    border: none;
+}
+.dws-menu1 > ul li > a i.fa{
+    position: none;
+    top: none;
+    left: none;
+    font-size: none;
+}
+.dws-menu1 > ul li a{
+    display: none;
+    padding: none;
+    font-size: none;
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    transition: none;
+}
+.dws-menu li a:hover{
+
+    transition: none;
+}
+
+/*sub menu*/
+.dws-menu1 li ul{
+    position: none;
+    min-width: none;
+    display: none;
+}
+.dws-menu1 li > ul li{
+    border: none;
+}
+.dws-menu1 li > ul li a{
+    padding: none;
+    text-transform: none;
+    background: none;
+}
+.dws-menu1 li > ul li ul{
+    position: none;
+    right: none;
+    top: none;
+}
+.dws-menu1 li:hover > ul{
+    display: none;
+}
+.dws-menu1 li a:hover{
+    background: none;
+
+    color: white;
+
+    transition: none;
+}
+
+}
